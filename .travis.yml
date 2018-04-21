@@ -15,4 +15,4 @@ after_success:
 deploy:
   provider: heroku
   app: "mysterious-taiga-4303200"
-  api_key: $(HEROKU_API_KEY)
+  api_key: ${HEROKU_API_KEY}
