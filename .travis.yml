@@ -9,6 +9,10 @@ script:
   - make test
   - make lint
   - make docker_build
-  - make docker_push 
+  - make docker_push
 after_success:
   - make docker_build
+deploy:
+  provider: heroku
+  app: "mysterious-taiga-4303200"
+  api_key: $(HEROKU_API_KEY)
