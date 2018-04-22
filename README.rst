@@ -84,5 +84,8 @@ Materiały
 
 Etykiety
 ========
+.. image:: https://app.statuscake.com/button/index.php?Track=t3J8yvPpw2&Days=1
+           &Design=2
+    :target: https://app.statuscake.com/AllStatus.php?tid=3114187#redirect=true
 .. image:: https://travis-ci.org/kaczok85/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/kaczok85/se_hello_printer_app
